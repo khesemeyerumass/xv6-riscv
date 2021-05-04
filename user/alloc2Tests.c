@@ -5,7 +5,7 @@
 int
 main(int argc, char *argv[])
 {
-  // Allocate 65536 memory 50 times
+  // Allocate memory 50 times
   void* temp1 = malloc(131072);
   void* temp2 = malloc(2147483648);
   void* temp3 = malloc(7390);
