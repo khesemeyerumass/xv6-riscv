@@ -133,6 +133,14 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_buddytests\
+	$U/_allocTests\
+	$U/_allocFreeTests\
+	$U/_alloc2Tests\
+	$U/_allocFree2Tests\
+	$U/_allocTimeTest\
+	$U/_allocTimeTest2\
+	$U/_allocInFragTest\
+	$U/_allocExFragTest\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
